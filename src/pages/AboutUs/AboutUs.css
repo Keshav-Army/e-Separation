@@ -1,0 +1,153 @@
+/* Container to hide the overflow and center the credits */
+
+.about-us-container .credits-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  color: #f0f0f0;
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  background-color: #111;
+}
+.about-us-container .credits-container h1 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.about-us-container .credits-container h2 {
+  color: #dedede;
+  font-weight: 600;
+}
+
+.about-us-container .credits-container .message-text {
+  color: #e2e2e2;
+  font-size: 16px;
+}
+.about-us-container .credits-container ::selection {
+  color: white;
+  background: #633c3c71;
+}
+
+.about-us-container .credits {
+  position: absolute;
+  width: 85%;
+  left: 50%;
+  top: 50%;
+  padding-top: 800px;
+  transform: translate(-50%, -50%);
+  animation: scrollCredits 70s linear infinite;
+  text-align: center;
+}
+
+.about-us-container .credits:active {
+  animation-play-state: paused;
+}
+
+.about-us-container .credits .final-words {
+  margin-bottom: 0px;
+}
+
+.about-us-container .star {
+  font-size: large;
+}
+
+/* Text Shine Effect */
+.about-us-container .text-shine {
+  background: linear-gradient(
+    90deg,
+    #ff6ec4,
+    rgba(204, 207, 70, 1) 0%,
+    #4ade80,
+    #ff6ec4
+  );
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.about-us-container .linkedin-icon {
+  width: 23px;
+}
+
+.about-us-container .dashboard-btn-about-us {
+  margin-top: 30px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  background-color: #45b3c8;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  animation: buttonPulse 2s infinite;
+}
+.about-us-container strong {
+  /* background: rgb(2,0,36); */
+  background: linear-gradient(
+    90deg,
+    rgba(204, 207, 70, 1) 0%,
+    rgba(0, 212, 255, 1) 56%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/* Basic styling for sections */
+.about-us-container .credit-section {
+  margin: 40px 0;
+}
+
+.about-us-container .subtitle {
+  font-style: italic;
+}
+
+.about-us-container .signature {
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.about-us-container .ps {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+/* Highlight special notes (like the Ironman reference) */
+.about-us-container .highlight {
+  color: #ffd700;
+}
+
+/* Keyframes for scrolling the credits */
+@keyframes scrollCredits {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -200%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about-us-container .credits {
+    width: 80%;
+    text-align: left;
+  }
+}

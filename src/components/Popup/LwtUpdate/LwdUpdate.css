@@ -1,0 +1,208 @@
+.lwd-update .popup {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lwd-update .popup-inner h2 {
+  margin-bottom: 34px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #3a3a3c;
+  text-align: left;
+  font-family: sans-serif;
+  border-bottom: 1px dotted gainsboro;
+  font-size: 22px;
+}
+
+.lwd-update .popup .popup-inner {
+  background: white;
+  padding: 30px;
+  padding-top: 10px;
+  border-radius: 8px;
+  width: 500px;
+  max-height: 90%;
+  overflow-y: auto; /* Ensure content doesn't overflow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+  position: relative;
+  /* padding: 20px; */
+  /* background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.popup form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form fields */
+}
+
+.popup .form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px; /* Space between inputs in a row */
+}
+
+.popup form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.popup form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc !important;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.popup .form-row > label {
+  flex: 1; /* Make labels in a row equal width */
+}
+
+.popup .submit-btn,
+.close-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.lwd-update .popup button.submit-btn {
+  background-color: #45b3c8;
+  color: white;
+  font-weight: 600;
+}
+.lwd-update .popup button.submit-btn:hover {
+  background-color: #3b8a9a;
+}
+
+.popup button.close-btn {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.popup .submit-btn,
+.close-btn:hover {
+  opacity: 0.9;
+}
+
+.checkbox-option {
+  display: flex;
+  justify-content: center;
+}
+.checkbox-option label {
+  width: 40%;
+}
+
+/* ======================================================================================================================== */
+/* ======================================================================================================================== */
+/* ======================================================================================================================== */
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 24px;
+}
+
+.toggle-switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.toggle-switch input:checked + .slider {
+  background-color: #007bff;
+}
+
+.toggle-switch input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.lwd-update form .critical-permissions {
+  justify-content: flex-start;
+}
+
+.employeeimg {
+  width: 50px;
+}
+
+.department-option {
+  color: #979696;
+  background-color: #fff;
+}
+
+.close-popup-btn {
+  position: absolute;
+  top: 4px;
+  right: 3px;
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 10;
+  transition: color 0.3s ease;
+  background-color: #ff6b6b;
+  color: white;
+  font-size: 23px;
+  width: 35px;
+  border-radius: 5px;
+}
+
+.close-popup-btn:hover {
+  background-color: #f85454;
+}
+
+/* .close-popup-btn */
+
+@media (max-width: 500px) {
+  .close-popup-btn {
+    top: 0px;
+  }
+}

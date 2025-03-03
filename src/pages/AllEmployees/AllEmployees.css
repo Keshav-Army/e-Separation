@@ -1,0 +1,339 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.all-employees .col-md-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.all-employees .main-container {
+  /* background-color: #21618c !important; */
+  /* background-image: linear-gradient(to right, #c471f5, #fa71cd); */
+  /* background-image: linear-gradient(to right, #4158d0, #c850c0); */
+  margin: 20px 40px;
+  max-width: 100%;
+}
+
+/* .App {
+    margin: auto;
+    max-width: 80%;
+  } */
+
+/* .container-fluid {
+    margin-top: 20px;
+  } */
+
+.panel {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+.all-employees .panel-heading {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.all-employees .panel-top {
+  height: 40px;
+  /* width: 100%; */
+  width: 25%;
+}
+
+.all-employees .panel-heading .panel-title {
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.pull-right {
+  font-size: 14px;
+}
+/* ============================== */
+.sc-cHqXqK {
+  font-size: 16px;
+}
+
+.rdt_TableBody .jLllXJ {
+  background-color: #f5f5f5;
+  font-size: 14px;
+}
+
+.rdt_TableBody .kQSTYI {
+  font-size: 14px;
+}
+
+.rdt_TableHead .rdt_TableHeadRow {
+  color: white;
+  background-color: #36304a;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.all-employees .rdt_TableBody .btn-color {
+  color: #fff;
+  background-color: #ef5786;
+  border-color: #ef5786;
+}
+.all-employees .rdt_TableBody .btn-color:hover {
+  background-color: #ec336c;
+  color: #fff;
+}
+
+.rdt_TableBody .sc-dstKZu:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.kQSTYI:not(:last-of-type) {
+  border-bottom: 1px solid rgb(0 0 0 / 4%) !important;
+}
+
+.form-search {
+  position: relative;
+  display: inline-block;
+  /* width: 100%; */
+}
+.form-search input[type="search"] {
+  width: 100%;
+  height: 40px;
+}
+.form-search input {
+  padding: 7px 30px 10px 9px;
+  border-radius: 6px;
+  border: 1px solid #a678d1;
+}
+
+.form-search button {
+  background-color: #a678d1;
+  color: #fff;
+  font-size: 14px;
+}
+
+.all-employees .form-search .addemployee-btn {
+  background-color: #9054c7c7;
+  color: #fff;
+  border: 1px solid gainsboro;
+  margin-top: 2px;
+  padding: 10px 28px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.all-employees .form-search .addemployee-btn:hover {
+  background-color: #7e54c8;
+}
+
+.form-upload form {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.loading-spinner-all-employees {
+  text-align: center;
+}
+.loading-spinner-all-employees p {
+  margin-top: -30px;
+  color: gainsboro;
+}
+
+.print-page {
+  margin-top: 0px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.all-employees .print-page button {
+  /* background-color: #2e1967;
+    color: white; */
+  /* border: none; */
+  border-radius: 4px;
+  font-size: 16px;
+  /* padding: 7px 18px; */
+  padding: 7px 0px 7px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+  background-color: #9054c7c7;
+  color: #fff;
+}
+
+.all-employees .print-page button:hover {
+  background-color: #130341;
+}
+
+.print-btn img {
+  width: 20px;
+  margin-right: 10px;
+  margin-left: 8px;
+}
+.panel-footer {
+  text-align: center;
+}
+
+.section-part-two {
+  background-color: #f7f7f7;
+  height: 100px;
+  margin: 0px 40px 20px 40px;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow-btn img {
+  width: 15px;
+}
+
+.all-employees .search-input {
+  padding: 10px;
+  font-size: 24px;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right-style: none !important;
+}
+
+.all-employees .search-input:focus {
+  /* box-shadow: none; */
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.all-employees .search-btn {
+  float: right;
+  width: 20%;
+  padding: 10.6px;
+  background: #45b3c8;
+  color: white;
+  font-size: 17px;
+  border-left: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+}
+
+.all-employees .search-btn img {
+  width: 38px;
+}
+
+/* =================== MEDIA FOR MOBILE SCREEN =================== */
+@media (min-width: 552px) {
+  .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .all-employees .main-container {
+    margin: 20px 15px;
+  }
+
+  .all-employees .section-part-two {
+    margin: 20px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .all-employees .panel-heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .all-employees .pull-right {
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+  .main-container {
+    margin: auto;
+    max-width: 90%;
+  }
+  .all-employees .panel-top {
+    width: 100%;
+  }
+
+  .all-employees .section-part-two {
+    display: block;
+  }
+  .all-employees .section-part-two {
+    height: auto;
+    text-align: center;
+  }
+
+  .all-employees .searching {
+    margin: 20px auto;
+    width: 300px;
+  }
+  .all-employees .all-employee-btn {
+    width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .all-employees .panel-title {
+    font-size: 16px;
+  }
+  .all-employees .btn {
+    font-size: 12px;
+  }
+  .main-container {
+    margin: auto;
+    max-width: 100%;
+  }
+  .all-employees .form-search button {
+    padding: 8px;
+  }
+  .form-search {
+    width: 100%;
+  }
+  .form-search input {
+    padding: 7px 30px 7px 9px;
+    width: 100%;
+  }
+  .column-ph {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .all-employees .panel-top {
+    width: 100%;
+  }
+}
+/* =================== MEDIA FOR MOBILE SCREEN =================== */
+
+/* =================SIDE scroll bar START================= */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  /* border-radius: 10px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5c5c5c;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #232323;
+}
+
+/* =================SIDE scroll bar END================= */

@@ -1,0 +1,314 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.view .main-container {
+  margin: 20px 40px;
+  max-width: 100%;
+}
+
+.employee-info h4 {
+  color: gray;
+  margin-bottom: 6px;
+}
+
+.section-part-one {
+  background-color: #f7f7f7;
+  height: 130px;
+  margin: 0px 40px 20px 40px;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.linkedin-link a {
+  color: #45b3c8;
+}
+
+.pdf-download-section {
+  display: flex;
+}
+
+.download-data {
+  padding: 3px 16px;
+}
+
+.download-button {
+  border: 1px solid gainsboro;
+  padding: 7px 20px 7px 20px;
+  border-radius: 8px;
+  background-color: #45b3c8;
+  color: #fff;
+  height: 48px;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+}
+.download-button img {
+  padding: 0 8px 3px 0px;
+}
+
+/* .App {
+    margin: auto;
+    max-width: 80%;
+  } */
+
+/* .container-fluid {
+    margin-top: 20px;
+  } */
+
+.employee-info {
+  padding: 3px 16px;
+}
+
+.panel {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0px;
+}
+
+.view .panel-heading {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 15px; */
+  height: auto;
+}
+
+.panel-top {
+  height: 40px;
+  width: 100%;
+}
+
+.panel-heading .panel-title {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.pull-right {
+  font-size: 14px;
+}
+/* ============================== */
+.sc-cHqXqK {
+  font-size: 16px;
+}
+
+.rdt_TableBody .jLllXJ {
+  background-color: #f5f5f5;
+  font-size: 14px;
+}
+
+.rdt_TableBody .kQSTYI {
+  font-size: 14px;
+}
+
+.rdt_TableHead .rdt_TableHeadRow {
+  color: white;
+  background-color: #36304a;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.rdt_TableBody .sc-dstKZu:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.kQSTYI:not(:last-of-type) {
+  border-bottom: 1px solid rgb(0 0 0 / 4%) !important;
+}
+
+.rdt_TableBody .btn-color {
+  color: #fff;
+  background-color: #625db1;
+  border-color: #625db1;
+}
+.rdt_TableBody .btn-color:hover {
+  background-color: #7e54c8;
+  color: #fff;
+}
+
+.loading-spinner-emp {
+  text-align: center;
+}
+.loading-spinner-emp p {
+  margin-top: -30px;
+  color: gainsboro;
+}
+
+.feedback-question-text {
+  margin: 12px 0px;
+  font-size: 15px;
+  color: #636363;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.feedback-answer-text {
+  color: #636363;
+  margin-left: 16px;
+}
+
+.feedback-comment-text {
+  margin-left: 2px;
+}
+
+.edit-icon-png {
+  width: 25px;
+  margin-left: 5px;
+  cursor: pointer;
+  background-color: #f7f7f7;
+}
+
+/* =================== MEDIA FOR MOBILE SCREEN =================== */
+
+@media (max-width: 768px) {
+  .pdf-download-section {
+    display: block;
+  }
+
+  .view .panel-heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .view .pull-right {
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+  .main-container {
+    margin: auto;
+    max-width: 90%;
+  }
+
+  .section-part-one {
+    display: block;
+    height: auto;
+  }
+  .download-button {
+    width: 100%;
+  }
+  .employee-info {
+    padding: 16px;
+    padding-bottom: 0px;
+  }
+  .download-data {
+    padding: 9px 16px 16px 13px;
+  }
+  .pdf-download-section .one {
+    padding-bottom: 0px;
+  }
+}
+
+@media (min-width: 552px) {
+  .view .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 500px) {
+  .view .main-container {
+    margin: 20px 15px !important;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .view .panel-title {
+    font-size: 16px;
+  }
+  .view .btn {
+    font-size: 12px;
+  }
+  .view .main-container {
+    margin: 20px 15px;
+    max-width: 100%;
+  }
+  .view .panel-heading {
+    height: auto;
+  }
+  .view .panel-heading .panel-title {
+    font-size: 29px !important;
+  }
+  .view .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .section-part-one {
+    margin: 20px 15px;
+  }
+  .text-center {
+    font-size: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted gainsboro;
+  }
+
+  .view .panel-footer {
+    padding: 10px 0px;
+  }
+}
+/* =================== MEDIA FOR MOBILE SCREEN =================== */
+
+/* =================SIDE scroll bar START================= */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  /* border-radius: 10px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5c5c5c;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #232323;
+}
+
+/* =================SIDE scroll bar END================= */
+
+/* =================Feedback Start================= */
+.feedback-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0ffff73;
+  border-radius: 8px;
+}
+
+.feedback-section h2 {
+  margin-bottom: 20px;
+}
+
+.feedback-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.feedback-item {
+  margin-bottom: 15px;
+}
+
+.feedback-item strong {
+  color: #333;
+}
+
+@media (min-width: 1100px) {
+  .feedback-section {
+    padding: 10px 50px 10px 50px;
+  }
+}
+/* =================Feedback END================= */

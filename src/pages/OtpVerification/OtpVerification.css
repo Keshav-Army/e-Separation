@@ -1,0 +1,283 @@
+body {
+  /* background-image: linear-gradient(to right, #45b3c8, #ff9ec1) !important; */
+  font-family: "montserrat";
+  background-image: linear-gradient(125deg, #ff9ec1, #45b3c8, #45b3c8, #ff9ec1);
+  background-size: 400%;
+  animation: bganimation 15s infinite;
+  /* background-image: linear-gradient(to right, #4158d0, #c850c0); */
+  /* height: 100vh; */
+}
+
+@keyframes bganimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* .OTP .login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+.OTP .login-form {
+  background-color: white;
+  /* padding: 40px; */
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  /* width: 400px; */
+  margin: auto;
+
+  width: 490px;
+  height: 345px;
+
+  margin-top: 45px;
+  padding: 38px 24px 38px 24px;
+  border-radius: 16px;
+}
+
+.OTP h2 {
+  font-size: 30px;
+}
+
+.OTP .form-group input {
+  font-size: 15px;
+}
+
+.OTP .alert-message {
+  font-size: 15px;
+  text-align: center;
+  padding: 11px 0px;
+  /* margin-bottom: 0; */
+}
+
+.OTP .login-form h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  /* margin-bottom: 40px; */
+  font-weight: 600;
+  color: #32383e;
+}
+
+.OTP .form-group {
+  margin-bottom: 20px;
+}
+
+.edit-email {
+  color: #ef5786;
+  text-decoration: underline;
+  font-size: 11px;
+  font-weight: 600;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.OTP .form-group input {
+  /* width: 100%;
+  padding: 11px;
+  border: 1px solid #ccc;
+  border-radius: 4px; */
+  width: 100%;
+  padding: 11px;
+  height: 50px;
+  border: 1px solid #ccc !important;
+  border-radius: 8px;
+  border-color: #d8d8d8 !important;
+}
+
+::placeholder {
+  color: #d8d8d8;
+  opacity: 1; /* Firefox */
+}
+.error {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.google-img {
+  width: 5%;
+}
+
+.login form .btn-signin:hover,
+.login form .btn-google:hover {
+  background-color: #ef5786;
+  color: white;
+}
+
+/* =================== MEDIA FOR MOBILE SCREEN =================== */
+
+@media (max-width: 930px) {
+  .OTP .frame img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 650px) {
+  .OTP .login-form {
+    width: 465px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* .login-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 300px;
+  } */
+
+  .OTP .login-form {
+    width: 375px;
+  }
+
+  .login h2 {
+    font-size: 36px;
+  }
+  .login .alert-message {
+    font-size: 14.7px;
+  }
+  /* .login .login-form {
+    width: 350px;
+    padding: 30px;
+  } */
+}
+@media (max-width: 368px) {
+  .OTP .login-form {
+    width: 342px;
+  }
+}
+
+/* =================== MEDIA FOR MOBILE SCREEN =================== */
+
+/* NEW CSS IMPLEMENTING */
+/* =========================================================================================================================== */
+
+.OTP {
+  padding-top: 50px;
+}
+
+.OTP .otp-input {
+  margin-bottom: 20px;
+}
+
+.OTP .css-19qnlrw-MuiFormLabel-root-MuiInputLabel-root {
+  font-size: 15px !important;
+  line-height: 1em !important;
+  color: #d8d8d8 !important;
+}
+
+.OTP .css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 11px 11px;
+  font-size: 16px;
+}
+
+.logo-container {
+  /* width: 323px; */
+  width: 263px;
+  height: 144px;
+  text-align: center;
+  margin: auto;
+  /* margin-top: 94px; */
+  /* margin-top: 76px; */
+}
+
+.clovia-white-logo img {
+  width: 100%;
+}
+
+.OTP .logo-text {
+  height: 36px;
+  /* width: 323px; */
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.OTP .logo-text h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  height: 22px;
+  font-family: monospace;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+/* .OTP .frame {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.OTP .verify-btn {
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  /* background-color: #6666ee; */
+  background-color: #ef5786de;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  padding: 11px;
+  margin-bottom: 20px;
+}
+
+.OTP form .verify-btn:hover {
+  background-color: #ef5786;
+  color: white;
+}
+
+.OTP .frame img {
+  width: 282px;
+}
+
+.OTP .frame {
+  position: relative;
+  width: 100%;
+}
+
+.OTP .frame-left-image {
+  position: fixed;
+  bottom: 7px;
+  left: 0;
+}
+
+.OTP .frame-right-image {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.OTP.frame-left-image img,
+.OTP .frame-right-image img {
+  width: 282px;
+  object-fit: contain;
+}

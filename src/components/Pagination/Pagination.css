@@ -1,0 +1,25 @@
+.arrow-btn img {
+  width: 15px;
+}
+
+.left-arrow {
+  border: 1px solid gray;
+  padding: 7px;
+  border-radius: 5px;
+  margin: 0px 8px;
+}
+.right-arrow {
+  border: 1px solid gray;
+  padding: 7px;
+  border-radius: 5px;
+  margin: 0px 8px;
+}
+.arrow-btn .active {
+  border: 1px solid #4db3c8;
+  padding: 8px;
+  border-radius: 17px;
+  margin: 0px 7px;
+  background: #4db3c8;
+  color: white;
+  font-weight: 600;
+}

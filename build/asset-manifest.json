@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.769de1f2.css",
+    "main.js": "/static/js/main.bad25a54.js",
+    "static/js/453.e114b3d5.chunk.js": "/static/js/453.e114b3d5.chunk.js",
+    "static/media/wallpaper.jpg": "/static/media/wallpaper.7458d8d18cc047435c06.jpg",
+    "static/media/glyphicons-halflings-regular.svg": "/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
+    "static/media/loginframe2.png": "/static/media/loginframe2.a5d9ecf6858105d07f69.png",
+    "static/media/glyphicons-halflings-regular.ttf": "/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+    "static/media/a.gif": "/static/media/a.4e7042d5bd488aee9e3a.gif",
+    "static/media/notification.mp3": "/static/media/notification.1dee7ebe9a36c0f58237.mp3",
+    "static/media/glyphicons-halflings-regular.woff": "/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+    "static/media/linkedin-icon.png": "/static/media/linkedin-icon.2b8fe175f90722ea8e60.png",
+    "static/media/loginframe1.png": "/static/media/loginframe1.fd0dceef6f47d3bceefd.png",
+    "static/media/glyphicons-halflings-regular.eot": "/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+    "static/media/glyphicons-halflings-regular.woff2": "/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
+    "static/media/add-user-icon.png": "/static/media/add-user-icon.42d1caac55f4078ca81d.png",
+    "static/media/error.mp3": "/static/media/error.a3a17bc8f7119850ba10.mp3",
+    "static/media/google.png": "/static/media/google.e6216e10719839f4ab94.png",
+    "static/media/spinner.svg": "/static/media/spinner.65fd10aacbeedbb67da7101c15e08f6e.svg",
+    "index.html": "/index.html",
+    "main.769de1f2.css.map": "/static/css/main.769de1f2.css.map",
+    "main.bad25a54.js.map": "/static/js/main.bad25a54.js.map",
+    "453.e114b3d5.chunk.js.map": "/static/js/453.e114b3d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.769de1f2.css",
+    "static/js/main.bad25a54.js"
+  ]
+}
